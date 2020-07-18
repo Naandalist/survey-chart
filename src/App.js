@@ -29,7 +29,11 @@ const App = () => {
           path='/pengguna-lulusan'
           component={ChartPenggunaLulusan}
         />
-        <Route exact path='/dosen' component={ChartDosenTendik} />
+        <Route
+          exact
+          path='/dosen-dan-tenaga-kependidikan'
+          component={ChartDosenTendik}
+        />
         <Route exact path='/pemahaman-visi-misi' component={ChartVisiMisi} />
         <Route exact path='/tracer-studi-lulusan' component={ChartLulusan} />
         <Route component={NotFound} />

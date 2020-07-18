@@ -4,7 +4,7 @@ import DataSet from "@antv/data-set";
 import { Layout, Typography, Table, Tabs } from "antd";
 const { Content, Footer } = Layout;
 const { Column, ColumnGroup } = Table;
-const { Title, Paragraph, Text } = Typography;
+const { Title, Paragraph, Text, Link } = Typography;
 const { TabPane } = Tabs;
 const { DataView } = DataSet;
 
@@ -60,12 +60,15 @@ function ChartVisiMisi() {
               dengan koordinasi dengan Unit Penjamin Mutu (UPM).
             </Paragraph>
             <Paragraph>
-              Survei kepuasan mahasiswa terhadap layanan mahasiswa dilaksanakan
-              pada setiap akhir semester berjalan yang terdiri dari beberapa
-              aspek diantaranya: Responden survey terdiri dari dosen dosen dan
-              tenaga kependidikan STIQ Al-Lathifiyyah sebanyak 61 orang. Adapun
-              instrumen angket yang digunakan meliputi beberapa aspek yang
-              diantaranya adalah sebagai berikut:
+              <Link href='https://forms.gle/FFYuwnbzUb8EQze89' target='_blank'>
+                Survei Pemahaman Visi dan Misi Civitas Akademik dan Tenaga
+                Kependidikan{" "}
+              </Link>
+              dilaksanakan pada setiap akhir semester berjalan yang terdiri dari
+              beberapa aspek diantaranya: Responden survey terdiri dari dosen
+              dosen dan tenaga kependidikan STIQ Al-Lathifiyyah sebanyak 61
+              orang. Adapun instrumen angket yang digunakan meliputi beberapa
+              aspek yang diantaranya adalah sebagai berikut:
               <ol>
                 <li>
                   <Text>Rekrutmen</Text>

@@ -4,7 +4,7 @@ import DataSet from "@antv/data-set";
 import { Layout, Typography, Table, Tabs } from "antd";
 const { Content, Footer } = Layout;
 const { Column, ColumnGroup } = Table;
-const { Title, Paragraph, Text } = Typography;
+const { Title, Paragraph, Text, Link } = Typography;
 const { TabPane } = Tabs;
 const { DataView } = DataSet;
 function callback(key) {
@@ -60,9 +60,11 @@ function ChartMahasiswa() {
               Mahasiswa yang akan digunakan sebagai tolak ukur mutu pelayanan.
             </Paragraph>
             <Paragraph>
-              Survei kepuasan mahasiswa terhadap layanan mahasiswa dilaksanakan
-              pada setiap akhir semester berjalan yang terdiri dari beberapa
-              aspek diantaranya:
+              <Link href='https://forms.gle/2myVQKVGLpZwWvDg9' target='_blank'>
+                Survei kepuasan mahasiswa{" "}
+              </Link>
+              terhadap layanan mahasiswa dilaksanakan pada setiap akhir semester
+              berjalan yang terdiri dari beberapa aspek diantaranya:
               <ol>
                 <li>
                   <Text>Reliability</Text>

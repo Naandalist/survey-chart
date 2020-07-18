@@ -64,10 +64,9 @@ function ChartMahasiswa() {
               <Link href='https://forms.gle/ZskmkHGk6GHYaa6M8' target='_blank'>
                 Survei kepuasan pengguna lulusan{" "}
               </Link>
-              terhadap layanan mahasiswa dilaksanakan pada setiap akhir semester
-              berjalan yang terdiri dari beberapa aspek diantaranya: Pelaksanaan
-              survey kepuasan pengguna lulusan STIQ Al-Lathifiyah tahun 2020 ini
-              dilakukan secara online melalui
+              terdiri dari beberapa aspek diantaranya: Pelaksanaan survey
+              kepuasan pengguna lulusan STIQ Al-Lathifiyah tahun 2020 ini
+              dilakukan secara online .
               <ol>
                 <li>
                   <Text>Etika</Text>

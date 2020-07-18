@@ -34,7 +34,9 @@ const Home = () => (
               style={{ marginTop: 16 }}
               type='inner'
               title='2. Survey Kepuasan Dosen dan Tenaga Kependidikan'
-              extra={<Link to='/dosen'>Lebih Detail</Link>}
+              extra={
+                <Link to='/dosen-dan-tenaga-kependidikan'>Lebih Detail</Link>
+              }
             >
               <Tag color='blue'>Rekrutmen</Tag>
               <Tag color='blue'>Kesejahteraan</Tag>

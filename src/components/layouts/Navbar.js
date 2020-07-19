@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Menu, Typography } from "antd";
-import { Link as Route } from "react-router-dom";
+import { Link as Link2 } from "react-router-dom";
 import { MailOutlined, PhoneOutlined, HomeOutlined } from "@ant-design/icons";
 
 const { Text, Link } = Typography;
@@ -8,7 +8,7 @@ const { Text, Link } = Typography;
 const Navbar = () => {
   return (
     <Fragment>
-      <Route to='/'>
+      <Link2 to='/tracer-studi-lulusan'>
         <Text
           strong
           style={{
@@ -18,13 +18,11 @@ const Navbar = () => {
             color: "black",
           }}
         >
-          STIQ Al-Lathifiyyah Palembang
-        </Text>{" "}
-      </Route>
-      <Text code>Kampus Islami</Text>
-      <Text code>Kampus Qur'ani</Text>
+          STIQ Al-Lathifiyyah
+        </Text>
+      </Link2>
       <Menu mode='horizontal' style={{ paddingLeft: "2rem" }}>
-        <Menu.Item key='webportal' icon={<HomeOutlined />}>
+        <Menu.Item key='mail' icon={<HomeOutlined />}>
           <Link href='https://www.stiqlathifiyyah.ac.id/' target='_blank'>
             stiqlathifiyyah.ac.id
           </Link>
@@ -34,7 +32,7 @@ const Navbar = () => {
             stiqlathifiyyah@gmail.com
           </Link>
         </Menu.Item>
-        <Menu.Item key='whatsapp' icon={<PhoneOutlined />}>
+        <Menu.Item key='app' icon={<PhoneOutlined />}>
           <Link href='https://wa.me/6285369697081' target='_blank'>
             +62 853-6969-7081
           </Link>

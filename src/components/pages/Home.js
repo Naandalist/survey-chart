@@ -43,7 +43,7 @@ const Home = () => (
               <Tag color='blue'>Kinerja</Tag>
               <Tag color='blue'>Fasilitas</Tag>
               <Tag color='blue'>Pembinaan</Tag>
-              <Tag color='blue'>Pengembangan Kompetensi</Tag>
+              <Tag color='blue'>Kompetensi</Tag>
             </Card>
             <Card
               style={{ marginTop: 16 }}
@@ -52,10 +52,10 @@ const Home = () => (
               extra={<Link to='/pengguna-lulusan'>Lebih Detail</Link>}
             >
               <Tag color='blue'>Etika</Tag>
-              <Tag color='blue'>Keahlian pada Bidang Ilmu</Tag>
-              <Tag color='blue'>Kemampuan Berbahasa Asing</Tag>
-              <Tag color='blue'>Penggunaan Teknologi Informasi</Tag>
-              <Tag color='blue'>Kemampuan Berkomunikasi</Tag>
+              <Tag color='blue'>Keahlian Bidang Ilmu</Tag>
+              <Tag color='blue'>Kemampuan Bahasa Asing</Tag>
+              <Tag color='blue'>Penggunaan IT</Tag>
+              <Tag color='blue'>Komunikasi</Tag>
               <Tag color='blue'>Kerjasama</Tag>
               <Tag color='blue'>Pengembangan Diri</Tag>
             </Card>
@@ -65,10 +65,10 @@ const Home = () => (
               title='4.Survey Pemahaman Visi dan Misi Civitas Akademik STIQ Al-Lathifiyyah'
               extra={<Link to='/pemahaman-visi-misi'>Lebih Detail</Link>}
             >
-              <Tag color='blue'>Kemudahan Memperoleh Informasi</Tag>
+              <Tag color='blue'>Kemudahan Informasi</Tag>
               <Tag color='blue'>Realistis</Tag>
-              <Tag color='blue'>Pengetahuan program kerja</Tag>
-              <Tag color='blue'>Relevansi dengan pekerjaan</Tag>
+              <Tag color='blue'>Pengetahuan proker</Tag>
+              <Tag color='blue'>Relevansi pekerjaan</Tag>
               <Tag color='blue'>Pemaknaan visi dan misi</Tag>
             </Card>
             <Card
@@ -78,9 +78,8 @@ const Home = () => (
               extra={<Link to='/tracer-studi-lulusan'>Lebih Detail</Link>}
             >
               <Tag color='blue'>Kesesuaian Bidang Kerja</Tag>
-              <Tag color='blue'>Kesesuaian Jenjang Pekerjaan</Tag>
-              <Tag color='blue'>Pengetahuan program kerja</Tag>
-              <Tag color='blue'>Pengalaman Kuliah di Dunia Kerja</Tag>
+              <Tag color='blue'>Kesesuaian Jenjang Kerja</Tag>
+              <Tag color='blue'>Pengalaman Kuliah</Tag>
               <Tag color='blue'>Kesanggupan Berkompetisi</Tag>
             </Card>
           </div>

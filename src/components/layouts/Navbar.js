@@ -18,9 +18,11 @@ const Navbar = () => {
             color: "black",
           }}
         >
-          STIQ Al-Lathifiyyah
+          STIQ Al-Lathifiyyah{" "}
         </Text>
       </Link2>
+      <Text code>Kampus Islami</Text>
+      <Text code>Kampus Qur'ani</Text>
       <Menu mode='horizontal' style={{ paddingLeft: "2rem" }}>
         <Menu.Item key='mail' icon={<HomeOutlined />}>
           <Link href='https://www.stiqlathifiyyah.ac.id/' target='_blank'>

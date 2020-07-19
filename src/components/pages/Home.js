@@ -68,8 +68,8 @@ const Home = () => (
               <Tag color='blue'>Kemudahan Memperoleh Informasi</Tag>
               <Tag color='blue'>Realistis</Tag>
               <Tag color='blue'>Pengetahuan program kerja</Tag>
-              <Tag color='blue'>Relevansi visi dan misi dengan pekerjaan</Tag>
-              <Tag color='blue'>Memaknai visi dan misi</Tag>
+              <Tag color='blue'>Relevansi dengan pekerjaan</Tag>
+              <Tag color='blue'>Pemaknaan visi dan misi</Tag>
             </Card>
             <Card
               style={{ marginTop: 16 }}
@@ -77,11 +77,11 @@ const Home = () => (
               title='5.Tracer Studi Lulusan STIQ Al-Lathifiyyah Palembang'
               extra={<Link to='/tracer-studi-lulusan'>Lebih Detail</Link>}
             >
-              <Tag color='blue'>Kemudahan Memperoleh Informasi</Tag>
-              <Tag color='blue'>Realistis</Tag>
+              <Tag color='blue'>Kesesuaian Bidang Kerja</Tag>
+              <Tag color='blue'>Kesesuaian Jenjang Pekerjaan</Tag>
               <Tag color='blue'>Pengetahuan program kerja</Tag>
-              <Tag color='blue'>Relevansi visi dan misi dengan pekerjaan</Tag>
-              <Tag color='blue'>Memaknai visi dan misi</Tag>
+              <Tag color='blue'>Pengalaman Kuliah di Dunia Kerja</Tag>
+              <Tag color='blue'>Kesanggupan Berkompetisi</Tag>
             </Card>
           </div>
         </div>

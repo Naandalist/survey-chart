@@ -1,49 +1,54 @@
-import React from "react";
-import { PageHeader, Button } from "antd";
-import {
-  HomeOutlined,
-  FacebookOutlined,
-  WhatsAppOutlined,
-} from "@ant-design/icons";
+import React, { Fragment } from "react";
+import { Menu, Typography } from "antd";
+import { Link as Route } from "react-router-dom";
+import { MailOutlined, PhoneOutlined, HomeOutlined } from "@ant-design/icons";
+
+const { Text, Link } = Typography;
 
 const Navbar = () => {
   return (
-    <PageHeader
-      ghost={true}
-      backIcon={true}
-      onBack={() => window.history.back()}
-      title='STIQ Al-Lathifiyyah Palembang'
-      subTitle={`Kampus Islami, Kampus Qur'ani`}
-      extra={[
-        <Button
-          key='3'
-          icon={<WhatsAppOutlined />}
-          onClick={() => window.open("https://wa.me/6285369697081")}
+    <Fragment>
+      <Route to='/'>
+        <Text
+          strong
+          style={{
+            paddingLeft: "3rem",
+            paddingTop: "1rem",
+            fontSize: 30,
+            color: "black",
+          }}
         >
-          +62 853-6969-7081
-        </Button>,
-        <Button
-          key='2'
-          icon={<FacebookOutlined />}
-          onClick={() =>
-            window.open(
-              "https://www.facebook.com/profile.php?id=100013554857202"
-            )
-          }
-        >
-          stiqlathifiyyah
-        </Button>,
-        <Button
-          key='1'
-          type='primary'
-          icon={<HomeOutlined />}
-          onClick={() => window.open("https://www.stiqlathifiyyah.ac.id/")}
-        >
-          stiq al-lathifiyyah
-        </Button>,
-      ]}
-      style={{ paddingLeft: 50, paddingRight: 50 }}
-    ></PageHeader>
+          STIQ Al-Lathifiyyah Palembang
+        </Text>{" "}
+      </Route>
+      <Text code>Kampus Islami</Text>
+      <Text code>Kampus Qur'ani</Text>
+      <Menu mode='horizontal' style={{ paddingLeft: "2rem" }}>
+        <Menu.Item key='webportal' icon={<HomeOutlined />}>
+          <Link href='https://www.stiqlathifiyyah.ac.id/' target='_blank'>
+            stiqlathifiyyah.ac.id
+          </Link>
+        </Menu.Item>
+        <Menu.Item key='mail' icon={<MailOutlined />}>
+          <Link href='https://mail.google.com/mail/u/0/' target='_blank'>
+            stiqlathifiyyah@gmail.com
+          </Link>
+        </Menu.Item>
+        <Menu.Item key='whatsapp' icon={<PhoneOutlined />}>
+          <Link href='https://wa.me/6285369697081' target='_blank'>
+            +62 853-6969-7081
+          </Link>
+        </Menu.Item>
+        {/* <Menu.Item key='app' icon={<FacebookOutlined />}>
+          <Link
+            href='https://www.facebook.com/profile.php?id=100013554857202'
+            target='_blank'
+          >
+            stiqlathifiyyah
+          </Link>
+        </Menu.Item> */}
+      </Menu>
+    </Fragment>
   );
 };
 

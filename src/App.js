@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/layouts/Navbar";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Charts from "./components/pages/Charts";
 import ChartMahasiswa from "./components/pages/ChartMahasisiwa";
 import ChartPenggunaLulusan from "./components/pages/ChartPenggunaLulusan";
 import ChartDosenTendik from "./components/pages/ChartDosenTendik";
@@ -21,8 +20,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/chart' component={Charts} />
+        <Route exact path='/tentang' component={About} />
         <Route exact path='/mahasiswa' component={ChartMahasiswa} />
         <Route
           exact

@@ -182,7 +182,8 @@ function ChartVisiMisi() {
         </Content>
         S
         <Footer style={{ textAlign: "center" }}>
-          STIQ Al-Lathifiyyah Palembang - 2020
+          Sekolah Tinggi Ilmu Al-Qur'an (STIQ) Al-Lathifiyyah Palembang 2016 -
+          2020
         </Footer>
       </Layout>
     </Fragment>

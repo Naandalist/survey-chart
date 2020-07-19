@@ -87,7 +87,8 @@ const Home = () => (
         </div>
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        Ant Design ©2018 Created by Ant UED
+        Sekolah Tinggi Ilmu Al-Qur'an (STIQ) Al-Lathifiyyah Palembang 2016 -
+        2020
       </Footer>
     </Layout>
   </Fragment>

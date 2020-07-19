@@ -51,7 +51,7 @@ function ChartMahasiswa() {
               Hasil Survey Kepuasan Pengguna Lulusan (User)
             </Title>
 
-            <Paragraph>
+            {/* <Paragraph>
               Survey kepuasan pengguna lulusan adalah survey yang dilakukan oleh
               Sekolah Tinggi Ilmu Al-Qur'an terhadap pengguna lulusan. Survey
               ini bertujuan untuk mengukur mutu lulusan dari sudut pandang
@@ -59,14 +59,14 @@ function ChartMahasiswa() {
               harapan pengguna. Hasil kepuasan yang bagus dari pengguna lulusan
               merupakan salah satu indikator keberhasilan proses pendidikan STIQ
               Al-Lathifiyyah.
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph>
               <Link href='https://forms.gle/ZskmkHGk6GHYaa6M8' target='_blank'>
                 Survei kepuasan pengguna lulusan{" "}
               </Link>
-              terdiri dari beberapa aspek diantaranya: Pelaksanaan survey
-              kepuasan pengguna lulusan STIQ Al-Lathifiyah tahun 2020 ini
-              dilakukan secara online .
+              Pelaksanaan survey kepuasan pengguna lulusan STIQ Al-Lathifiyah
+              tahun 2020 ini dilakukan secara online dengan dari beberapa aspek
+              diantaranya:
               <ol>
                 <li>
                   <Text>Etika</Text>

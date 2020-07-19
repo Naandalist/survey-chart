@@ -4,7 +4,7 @@ import DataSet from "@antv/data-set";
 import { Layout, Typography, Table, Tabs } from "antd";
 const { Content, Footer } = Layout;
 const { Column, ColumnGroup } = Table;
-const { Title, Paragraph, Text } = Typography;
+const { Title, Paragraph, Text, Link } = Typography;
 const { TabPane } = Tabs;
 const { DataView } = DataSet;
 function callback(key) {
@@ -50,16 +50,18 @@ function ChartLulusan() {
               Tracer Studi Lulusan STIQ Al-Lathifiyyah Tahun 2020
             </Title>
 
-            <Paragraph>
+            {/* <Paragraph>
               Tracer studi adalah studi pelacakan jejak lulusan/alumni yang
               dilakukan kepada alumni guna mengetahui outcome pendidikan berupa
               transisi dari fase perkuliahan menuju dunia kerja. Di sisi lain,
               institusi penddikan dapat mengevaluasi kontribusi dan memonitor
               adaptasi lulusan ketika berada di dunia kerja.
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph>
-              Tracer studi lulusan terdiri dari beberapa instrumen pengukur
-              diantaranya:
+              <Link href='https://forms.gle/nhPJrhhDUchuGdWEA' target='_blank'>
+                Tracer studi lulusan{" "}
+              </Link>
+              terdiri dari beberapa instrumen pengukur diantaranya:
               <ol>
                 <li>
                   <Text>

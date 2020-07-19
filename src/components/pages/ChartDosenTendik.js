@@ -40,15 +40,15 @@ function chartDosenTendik() {
               Pengelolaan SDM
             </Title>
 
-            <Paragraph>
+            {/* <Paragraph>
               Survey ini pada dasarnya merupakan metode untuk menilai sistem
               pengelolaan dosen dan tenaga kependidikan baik dalam hal
               pengembangan kompetensi maupun pengembangan karir. Dalam hal ini
               pengelolaan SDM dilaksanakan oleh Wakil Ketua yang dilanjutkan
               dengan koordinasi dengan Unit Penjamin Mutu (UPM).
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph>
-              <Link href='https://forms.gle/2myVQKVGLpZwWvDg9' target='_blank'>
+              <Link href='https://forms.gle/TxAXiSu16UUfgeHL8' target='_blank'>
                 Survey Kepuasan Dosen dan Tenaga Kependidikan{" "}
               </Link>
               Responden survey terdiri dari dosen dosen dan tenaga kependidikan

@@ -50,7 +50,7 @@ function ChartMahasiswa() {
               Hasil Survey Kepuasan Mahasiswa Semester Genap 2019/2020
             </Title>
 
-            <Paragraph>
+            {/* <Paragraph>
               Dalam rangka memenuhi kelengkapan data dukung Akreditasi Sekolah
               Tinggi Ilmu Al-Qur'an, dan evaluasi perbaikan layanan bagi
               mahasiswa di , maka perlu mengukur pencapaian keberhasilan layanan
@@ -58,7 +58,7 @@ function ChartMahasiswa() {
               di STIQ Al-Lathifiyyah. Salah satu upaya dalam meningkatkan mutu
               pelayanan mahasiswa, adalah melalui pengadaan Survei Kepuasan
               Mahasiswa yang akan digunakan sebagai tolak ukur mutu pelayanan.
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph>
               <Link href='https://forms.gle/2myVQKVGLpZwWvDg9' target='_blank'>
                 Survei kepuasan mahasiswa{" "}

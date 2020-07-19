@@ -52,23 +52,22 @@ function ChartVisiMisi() {
               Kependidikan
             </Title>
 
-            <Paragraph>
+            {/* <Paragraph>
               Survey ini pada dasarnya merupakan metode untuk menilai sistem
               pengelolaan dosen dan tenaga kependidikan baik dalam hal
               pengembangan kompetensi maupun pengembangan karir. Dalam hal ini
               pengelolaan SDM dilaksanakan oleh Wakil Ketua yang dilanjutkan
               dengan koordinasi dengan Unit Penjamin Mutu (UPM).
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph>
               <Link href='https://forms.gle/FFYuwnbzUb8EQze89' target='_blank'>
                 Survei Pemahaman Visi dan Misi Civitas Akademik dan Tenaga
                 Kependidikan{" "}
               </Link>
-              dilaksanakan pada setiap akhir semester berjalan yang terdiri dari
-              beberapa aspek diantaranya: Responden survey terdiri dari dosen
-              dosen dan tenaga kependidikan STIQ Al-Lathifiyyah sebanyak 61
-              orang. Adapun instrumen angket yang digunakan meliputi beberapa
-              aspek yang diantaranya adalah sebagai berikut:
+              Responden survey adalah dosen dan tenaga kependidikan STIQ
+              Al-Lathifiyyah sebanyak 61 orang. Adapun instrumen angket yang
+              digunakan meliputi beberapa aspek yang diantaranya adalah sebagai
+              berikut:
               <ol>
                 <li>
                   <Text>Rekrutmen</Text>
